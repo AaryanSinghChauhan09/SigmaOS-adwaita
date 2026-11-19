@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos_adwaita"
+name = "SigmaOS-adwaita"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_adwaita component"
 
 [lib]
 name = "sigmaos_adwaita"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
